@@ -1,0 +1,65 @@
+2017-10-24 04:19:54,496 INFO org.apache.hadoop.yarn.client.api.impl.TimelineClientImpl (main): Timeline service address: http://ip-172-31-18-137.us-west-2.compute.internal:8188/ws/v1/timeline/
+2017-10-24 04:19:54,557 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-18-137.us-west-2.compute.internal/172.31.18.137:8032
+2017-10-24 04:19:58,097 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2017-10-24 04:19:58,209 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2017-10-24 04:19:58,535 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1508817181476_0002
+2017-10-24 04:19:59,131 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1508817181476_0002
+2017-10-24 04:19:59,495 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-18-137.us-west-2.compute.internal:20888/proxy/application_1508817181476_0002/
+2017-10-24 04:19:59,515 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1508817181476_0002
+2017-10-24 04:20:29,278 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1508817181476_0002 running in uber mode : false
+2017-10-24 04:20:29,284 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2017-10-24 04:20:51,695 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2017-10-24 04:20:53,819 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1508817181476_0002 completed successfully
+2017-10-24 04:20:54,207 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 43
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=141278
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=105
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=5924818
+		S3: Number of bytes written=2123158
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=486888
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=20287
+		Total vcore-milliseconds taken by all map tasks=20287
+		Total megabyte-milliseconds taken by all map tasks=15580416
+	Map-Reduce Framework
+		Map input records=851
+		Map output records=0
+		Input split bytes=105
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=477
+		CPU time spent (ms)=4730
+		Physical memory (bytes) snapshot=189280256
+		Virtual memory (bytes) snapshot=2462789632
+		Total committed heap usage (bytes)=60882944
+	Clicker Sampling Rejected
+		Clicker Sampling Rejected=198
+	Events Size Over 100
+		Event Size Over 100=1
+	Shower Sampling Rejected
+		Shower Sampling Rejected=310
+	org.apache.avro.mapreduce.AvroMultipleOutputs
+		clicker=19
+		other=1
+		shower=304
+		submitter=5
+		visitor=14
+	File Input Format Counters 
+		Bytes Read=5924818
+	File Output Format Counters 
+		Bytes Written=1858

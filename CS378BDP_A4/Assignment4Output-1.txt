@@ -1,0 +1,9 @@
+brown	{"total_count": 1000424.0, "sum_of_squares": 6107610.0, "document_count": 198204.0, "min": 1.0, "max": 19.0, "mean": 5.047446065669714, "variance": 5.338054818260186}
+dog	{"total_count": 1999480.0, "sum_of_squares": 1.2196968E7, "document_count": 396416.0, "min": 1.0, "max": 19.0, "mean": 5.043893283823055, "variance": 5.327242737077917}
+fox	{"total_count": 2998703.0, "sum_of_squares": 1.8290511E7, "document_count": 594609.0, "min": 1.0, "max": 19.0, "mean": 5.043151045476944, "variance": 5.327196242362881}
+jumped	{"total_count": 3998254.0, "sum_of_squares": 2.4385496E7, "document_count": 792824.0, "min": 1.0, "max": 19.0, "mean": 5.043053691613776, "variance": 5.325376635029283}
+lazy	{"total_count": 4997102.0, "sum_of_squares": 3.0478066E7, "document_count": 990969.0, "min": 1.0, "max": 20.0, "mean": 5.042642100812437, "variance": 5.327582470032834}
+over	{"total_count": 5996215.0, "sum_of_squares": 3.6564797E7, "document_count": 1189152.0, "min": 1.0, "max": 20.0, "mean": 5.042429395064718, "variance": 5.322537593908947}
+quick	{"total_count": 6995643.0, "sum_of_squares": 4.2654205E7, "document_count": 1387372.0, "min": 1.0, "max": 20.0, "mean": 5.04237003485727, "variance": 5.319110060056698}
+sir	{"total_count": 7995464.0, "sum_of_squares": 4.8756378E7, "document_count": 1585505.0, "min": 1.0, "max": 20.0, "mean": 5.0428500698515615, "variance": 5.32098719909704}
+the	{"total_count": 9993108.0, "sum_of_squares": 7.1092084E7, "document_count": 1785465.0, "min": 1.0, "max": 28.0, "mean": 5.596921810284716, "variance": 8.491591760280556}

@@ -1,0 +1,14 @@
+
+ Event Count (prefilter): 11448
+
+
+ Event Count (postfilter): 5935
+
+
+ Session Count: 868
+
+
+ Session Count Shower: 623
+
+
+ Session Count Shower Filtered: 559
